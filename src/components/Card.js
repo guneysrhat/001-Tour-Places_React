@@ -9,7 +9,14 @@ const Card = ({ title, desc, image, video }) => {
       </div>
 
       <img src={image} alt="" />
-      <div className="">
+      <div className="overview">
+        <iframe
+          src={video}
+          title={title}
+          frameborder="0"
+          allowFullScreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>
         <p>{desc}</p>
       </div>
     </div>
