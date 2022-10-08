@@ -1,0 +1,11 @@
+@import "./variables";
+
+.cityCard {
+  width: 30rem;
+  background-color: $cardBgColor;
+  img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+  }
+}
